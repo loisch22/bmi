@@ -22,6 +22,6 @@ var displayBMI = function(calculatedBMI) {
   alert("Your calculated BMI is " + calculatedBMI + ".");
 };
 
-var calculatedBMI = finalBMI(weightConversion(weight), squareAnswer(heightConversion(height)));
+var calculatedBMI = finalBMI(weightConversion(weight), squareAnswer(heightConversion(heigh`t)));
 
 displayBMI(calculatedBMI);
